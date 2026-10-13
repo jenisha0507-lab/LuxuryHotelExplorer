@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels - Luxury Hotel Explorer</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<!-- fonts      -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="index.html">Luxury Hotel Explorer</a> -->
+     <img src="images/logo.png" alt="logo" width="80px" height="60px">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="hotels.html">Hotels</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link " href="destinations.html">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="experiences.html">Experiences</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link " href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <a href="booking.html" class="btn book-btn book">Book Now</a>
+      <!-- <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+    </div>
+  </div>
+</nav>
+
+
+<!-- ============================================================
+     SECTION 4 — CINEMATIC DESTINATION
+     ============================================================ -->
+
+<section class="destination-cinematic">
+
+    <!-- BACKGROUND IMAGE -->
+    <div class="destination-cinematic-image">
+        <img
+            src="images/Taj-Lake-Palace.jpg"
+            alt="Luxury destination in Udaipur"
+        >
+    </div>
+
+    <!-- DARK OVERLAY -->
+    <div class="destination-cinematic-overlay"></div>
+
+
+    <!-- CONTENT -->
+    <div class="destination-cinematic-content">
+
+        <p class="destination-cinematic-label">
+            TRAVEL BEYOND THE ORDINARY
+        </p>
+
+        <h2>
+            Places that<br>
+            <em>stay with you.</em>
+        </h2>
+
+        <p class="destination-cinematic-description">
+            Discover beautiful landscapes, unforgettable moments
+            and destinations that become part of your story.
+        </p>
+
+        <a href="experiences.html" class="destination-cinematic-btn">
+            <span>Explore Experiences</span>
+            <i class="bi bi-arrow-right"></i>
+        </a>
+
+    </div>
+
+
+    <!-- BOTTOM LOCATION -->
+    <!-- <div class="destination-cinematic-location">
+
+        <span class="location-line"></span>
+
+        <span>Udaipur · Rajasthan · India</span>
+
+    </div> -->
+
+</section>
+
+
+
+
+<section class="luxury-hotels">
+
+    <div class="luxury-hotels-heading">
+
+        <p>EXPLORE OUR HOTELS</p>
+
+        <h1>Find Your Perfect Stay</h1>
+
+        <span>
+            Discover comfortable rooms, beautiful locations and unforgettable hotel experiences.
+        </span>
+
+    </div>
+
+
+    <div class="luxury-hotel-grid">
+
+
+        <!-- HOTEL 1 : TAJ EXOTICA -->
+        <div class="luxury-hotel-card">
+
+            <div class="luxury-hotel-image">
+
+                <img src="images/Taj-Exotica.jpg" alt="Taj Exotica">
+
+                <div class="luxury-hotel-overlay">
+
+                    <a href="hotel-details.html?hotel=1">
+                        View Details
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="luxury-hotel-info">
+
+                <span class="luxury-hotel-location">
+                    <i class="bi bi-geo-alt"></i> Goa, India
+                </span>
+
+                <h2>Taj Exotica</h2>
+
+                <p>
+                    Enjoy a peaceful beach stay with beautiful rooms, fine dining and ocean views.
+                </p>
+
+                <div class="luxury-hotel-bottom">
+
+                    <strong>
+                        ₹18,500 <small>/ night</small>
+                    </strong>
+
+                    <a href="booking.html?hotel=1">Book Now</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- HOTEL 2 : THE LEELA PALACE -->
+        <div class="luxury-hotel-card">
+
+            <div class="luxury-hotel-image">
+
+                <img src="images/Leela-Palace.jpg" alt="The Leela Palace">
+
+                <div class="luxury-hotel-overlay">
+
+                    <a href="hotel-details.html?hotel=2">
+                        View Details
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="luxury-hotel-info">
+
+                <span class="luxury-hotel-location">
+                    <i class="bi bi-geo-alt"></i> New Delhi, India
+                </span>
+
+                <h2>The Leela Palace</h2>
+
+                <p>
+                    A beautiful luxury hotel with royal interiors, delicious food and excellent service.
+                </p>
+
+                <div class="luxury-hotel-bottom">
+
+                    <strong>
+                        ₹22,000 <small>/ night</small>
+                    </strong>
+
+                    <a href="booking.html?hotel=2">Book Now</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- HOTEL 3 : THE OBEROI -->
+        <div class="luxury-hotel-card">
+
+            <div class="luxury-hotel-image">
+
+                <img src="images/Oberoi.jpg" alt="The Oberoi">
+
+                <div class="luxury-hotel-overlay">
+
+                    <a href="hotel-details.html?hotel=3">
+                        View Details
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="luxury-hotel-info">
+
+                <span class="luxury-hotel-location">
+                    <i class="bi bi-geo-alt"></i> Mumbai, India
+                </span>
+
+                <h2>The Oberoi</h2>
+
+                <p>
+                    A stylish city hotel offering comfortable rooms and a relaxing luxury experience.
+                </p>
+
+                <div class="luxury-hotel-bottom">
+
+                    <strong>
+                        ₹20,500 <small>/ night</small>
+                    </strong>
+
+                    <a href="booking.html?hotel=3">Book Now</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- HOTEL 4 : ITC GRAND CHOLA -->
+        <div class="luxury-hotel-card">
+
+            <div class="luxury-hotel-image">
+
+                <img src="images/Grand-Chola.jpg" alt="ITC Grand Chola">
+
+                <div class="luxury-hotel-overlay">
+
+                    <a href="hotel-details.html?hotel=4">
+                        View Details
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="luxury-hotel-info">
+
+                <span class="luxury-hotel-location">
+                    <i class="bi bi-geo-alt"></i> Chennai, India
+                </span>
+
+                <h2>ITC Grand Chola</h2>
+
+                <p>
+                    Experience grand architecture, spacious rooms and world-class dining facilities.
+                </p>
+
+                <div class="luxury-hotel-bottom">
+
+                    <strong>
+                        ₹16,500 <small>/ night</small>
+                    </strong>
+
+                    <a href="booking.html?hotel=4">Book Now</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- HOTEL 5 : RAMBAGH PALACE -->
+        <div class="luxury-hotel-card">
+
+            <div class="luxury-hotel-image">
+
+                <img src="images/Rambagh-Palace.jpg" alt="Rambagh Palace">
+
+                <div class="luxury-hotel-overlay">
+
+                    <a href="hotel-details.html?hotel=5">
+                        View Details
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="luxury-hotel-info">
+
+                <span class="luxury-hotel-location">
+                    <i class="bi bi-geo-alt"></i> Jaipur, India
+                </span>
+
+                <h2>Rambagh Palace</h2>
+
+                <p>
+                    Stay in a royal atmosphere surrounded by beautiful gardens and historic charm.
+                </p>
+
+                <div class="luxury-hotel-bottom">
+
+                    <strong>
+                        ₹25,000 <small>/ night</small>
+                    </strong>
+
+                    <a href="booking.html?hptel=5">Book Now</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- HOTEL 6 : TAJ LAKE PALACE -->
+        <div class="luxury-hotel-card">
+
+            <div class="luxury-hotel-image">
+
+                <img src="images/Taj-Lake-Palace.jpg" alt="Taj Lake Palace">
+
+                <div class="luxury-hotel-overlay">
+
+                    <a href="hotel-details.html?hotel=6">
+                        View Details
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="luxury-hotel-info">
+
+                <span class="luxury-hotel-location">
+                    <i class="bi bi-geo-alt"></i> Udaipur, India
+                </span>
+
+                <h2>Taj Lake Palace</h2>
+
+                <p>
+                    Enjoy a peaceful luxury escape surrounded by water, heritage and beautiful views.
+                </p>
+
+                <div class="luxury-hotel-bottom">
+
+                    <strong>
+                        ₹28,000 <small>/ night</small>
+                    </strong>
+
+                    <a href="booking.html?hotel=6">Book Now</a>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- HOTEL 7 :  -->
+        <div class="luxury-hotel-card">
+
+            <div class="luxury-hotel-image">
+
+                <img src="images/Park-Seoul.jpg" alt="Park Hyatt Seoul">
+
+                <div class="luxury-hotel-overlay">
+
+                    <a href="hotel-details.html?hotel=7">
+                        View Details
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="luxury-hotel-info">
+
+                <span class="luxury-hotel-location">
+                    <i class="bi bi-geo-alt"></i> Seoul, South Korea
+                </span>
+
+                <h2>Park Hyatt Seoul</h2>
+
+                <p>Enjoy refined urban luxury with stunning city views, elegant rooms, exceptional dining, and relaxing experiences in the heart of Seoul.</p>
+                
+                <div class="luxury-hotel-bottom">
+
+                    <strong>
+                       ₹23,500<small>/ night</small>
+                    </strong>
+
+                    <a href="booking.html?hotel=7">Book Now</a>
+
+                </div>
+
+            </div>
+
+    </div>
+      <!-- HOTEL 8 :  -->
+        <div class="luxury-hotel-card">
+
+            <div class="luxury-hotel-image">
+
+                <img src="images/Bangkok.jpg" alt="Capella Bangkok">
+
+                <div class="luxury-hotel-overlay">
+
+                    <a href="hotel-details.html?hotel=8">
+                        View Details
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="luxury-hotel-info">
+
+                <span class="luxury-hotel-location">
+                    <i class="bi bi-geo-alt"></i> Bangkok, Thailand
+                </span>
+
+                <h2>Capella Bangkok</h2>
+
+                <p>
+                  Experience riverside luxury with elegant rooms, beautiful Chao Phraya River views, fine dining, and personalized hospitality.
+                </p>
+
+                <div class="luxury-hotel-bottom">
+
+                    <strong>
+                       ₹32,000<small>/ night</small>
+                    </strong>
+
+                    <a href="booking.html?hotel=8">Book Now</a>
+
+                </div>
+
+            </div>
+
+    </div>
+      <!-- HOTEL 9 :  -->
+        <div class="luxury-hotel-card">
+
+            <div class="luxury-hotel-image">
+
+                <img src="images/raffles.jpg" alt="Raffles ">
+
+                <div class="luxury-hotel-overlay">
+
+                    <a href="hotel-details.html?hotel=9">
+                        View Details
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="luxury-hotel-info">
+
+                <span class="luxury-hotel-location">
+                    <i class="bi bi-geo-alt"></i> Singapore
+                </span>
+
+                <h2>Raffles Singapore</h2>
+
+                <p>
+                    Discover timeless luxury with elegant suites, historic charm, exceptional dining, and warm hospitality in the heart of Singapore.
+                </p>
+
+                <div class="luxury-hotel-bottom">
+
+                    <strong>
+                       ₹35,000<small>/ night</small>
+                    </strong>
+
+                    <a href="booking.html?hotel=9">Book Now</a>
+
+                </div>
+
+            </div>
+
+    </div>
+      <!-- HOTEL 10 :  -->
+        <div class="luxury-hotel-card">
+
+            <div class="luxury-hotel-image">
+
+                <img src="images/aman.jpg" alt="Aman Tokyo">
+
+                <div class="luxury-hotel-overlay">
+
+                    <a href="hotel-details.html?hotel=10">
+                        View Details
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="luxury-hotel-info">
+
+                <span class="luxury-hotel-location">
+                    <i class="bi bi-geo-alt"></i>Tokyo, Japan
+                </span>
+
+                <h2>Aman Tokyo</h2>
+
+                <p>
+                  Enjoy serene Japanese-inspired luxury with spacious rooms, breathtaking city views, refined dining, and peaceful wellness experiences.
+                </p>
+
+                <div class="luxury-hotel-bottom">
+
+                    <strong>
+                       ₹45,000<small>/ night</small>
+                    </strong>
+
+                    <a href="booking.html?hotel=10">Book Now</a>
+
+                </div>
+
+            </div>
+
+    </div>
+      <!-- HOTEL 11 :  -->
+        <div class="luxury-hotel-card">
+
+            <div class="luxury-hotel-image">
+
+                <img src="images/Baa Atoll.jpg" alt="Soneva Fushi">
+
+                <div class="luxury-hotel-overlay">
+
+                    <a href="hotel-details.html?hotel=11">
+                        View Details
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="luxury-hotel-info">
+
+                <span class="luxury-hotel-location">
+                    <i class="bi bi-geo-alt"></i> Baa Atoll, Maldives
+                </span>
+
+                <h2>Soneva Fushi</h2>
+
+                <p>
+                   Escape to a private island paradise with beautiful villas, pristine beaches, ocean adventures, and unforgettable tropical experiences.
+                </p>
+
+                <div class="luxury-hotel-bottom">
+
+                    <strong>
+                       ₹55,000<small>/ night</small>
+                    </strong>
+
+                    <a href="booking.html?hotel=11">Book Now</a>
+
+                </div>
+
+            </div>
+
+    </div>
+      <!-- HOTEL 12 :  -->
+        <div class="luxury-hotel-card">
+
+            <div class="luxury-hotel-image">
+
+                <img src="images/Capella.jpg" alt="Capella Ubud">
+
+                <div class="luxury-hotel-overlay">
+
+                    <a href="hotel-details.html?hotel=12">
+                        View Details
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="luxury-hotel-info">
+
+                <span class="luxury-hotel-location">
+                    <i class="bi bi-geo-alt"></i> Ubud, Bali, Indonesia
+                </span>
+
+                <h2>Capella Ubud</h2>
+
+                <p>
+                   Experience a unique jungle retreat surrounded by lush forests, luxurious tented stays, wellness experiences, and Balinese-inspired hospitality.
+                </p>
+
+                <div class="luxury-hotel-bottom">
+
+                    <strong>
+                       ₹38,000<small>/ night</small>
+                    </strong>
+
+                    <a href="booking.html?hotel=12">Book Now</a>
+
+                </div>
+
+            </div>
+
+    </div>
+
+</section>
+
+
+<footer class="luxury-footer">
+
+    <div class="luxury-footer-main">
+
+        <div class="luxury-footer-brand">
+
+            <h2>Luxury Hotel Explorer</h2>
+
+            <p>
+                Experience exceptional hospitality, elegant spaces, and unforgettable stays at handpicked luxury hotels.
+            </p>
+
+            <div class="luxury-footer-social">
+
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+
+            </div>
+
+        </div>
+
+
+        <div class="luxury-footer-column">
+
+            <h3 style="color:#d7c29a">Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="hotels.html">Featured Hotels</a>
+            <a href="experiences.html">Experiences</a>
+            <a href="index.html">Gallery</a>
+
+        </div>
+
+
+        <div class="luxury-footer-column">
+
+            <h3 style="color:#d7c29a">Explore</h3>
+
+            <a href="index.html">Why Choose Us</a>
+            <a href="index.html">Guest Reviews</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="booking.html">Book Your Stay</a>
+            <a href="index.html">Find Us</a>
+
+        </div>
+
+
+        <div class="luxury-footer-column luxury-footer-contact">
+
+            <h3 style="color:#d7c29a">Contact Us</h3>
+
+            <p>
+                <i class="bi bi-geo-alt"></i> Mumbai, Maharashtra, India
+            </p>
+
+            <p>
+                <i class="bi bi-telephone"></i> +91 98765 43210
+            </p>
+
+            <p>
+                <i class="bi bi-envelope"></i> reservations@luxuryhotelexplorer.com
+            </p>
+
+            <p>
+                <i class="bi bi-clock"></i> Available 24 Hours
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="luxury-footer-bottom">
+
+        <p>
+            © 2026 <span>Luxury Hotel Explorer</span>. All Rights Reserved.
+        </p>
+
+        <div>
+
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxuryHotelExplorer</title>
+     
+<!-- bootstarp_links -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script> -->
+
+ <!-- icon link -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+<!-- fonts      -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap"
+    rel="stylesheet">      -->
+
+<!-- css_link -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body >
+
+<!-- top bar     -->
+    <!-- <div class="container-fluid mar" style="margin: 0px; ">
+  <div class="row">
+    <div class="col-md-6">
+       <a href="tel:91 98765 43210" style="text-decoration-line: none; margin: 0px; color: aliceblue;" class="tele:hover"><i class="bi bi-telephone" style="color:#d7c29a;"></i> +91 98765 43210  </a>
+       
+      <a href="mailto:info@luxuryhotelexplorer.com"  style="text-decoration-line: none; color: white;" > &nbsp; <i class="bi bi-envelope" style="color:#d7c29a;"></i> info@luxuryhotelexplorer.com  </a><br>
+    </div>
+    <div class="col-md-6" style="margin: 0px;">
+         <div class="luxury-footer-social" style="margin-right: 0px;">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+            </div>
+    </div>
+
+  </div>
+
+</div> -->
+<!-- TOP BAR -->
+<div class="top-bar">
+    <div>
+               <a href="tel:91 98765 43210" style="text-decoration-line: none; margin: 0px; color: aliceblue;" class="tele:hover"><i class="bi bi-telephone" style="color:#d7c29a;"></i> +91 98765 43210  </a>
+       
+      <a href="mailto:reservations@luxuryhotelexplorer.com"  style="text-decoration-line: none; color: white;" > &nbsp; <i class="bi bi-envelope" style="color:#d7c29a;"></i> reservations@luxuryhotelexplorer.com  </a><br>
+        <!-- <span><i class="bi bi-telephone" style="color:#d7c29a;"></i> +91 98765 43210 </span>
+        <span><i class="bi bi-envelope" style="color:#d7c29a;"></i> info@luxuryhotelexplorer.com </span> -->
+    </div>
+
+    <div class="top-social">
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-youtube"></i></a>
+        <a href="#"><i class="bi bi-twitter-x"></i></a>
+    </div>
+</div>
+<!-- navbar-section -->
+    <nav class="navbar navbar-expand-lg ">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="index.html">Luxury Hotel Explorer</a> -->
+     <img src="images/logo.png" alt="logo" width="80px" height="60px">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="hotels.html">Hotels</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link " href="destinations.html">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="experiences.html">Experiences</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link " href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <a href="booking.html" class="btn book-btn book">Book Now</a>
+      <!-- <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+    </div>
+  </div>
+</nav>
+
+<!--HOTEL HERO CAROUSEL  -->
+<section class="hotel-hero">
+
+  <ul class="hotel-slider">
+
+    <!-- SLIDE 1 -->
+    <li class="hotel-slide"
+        style="background-image: url('images/carousel1.jpeg');">
+
+      <div class="hotel-content">
+        <p class="hotel-subtitle">WELCOME TO LUXURY HOTEL EXPLORER</p>
+
+        <h1 >Experience Luxury.<br>Discover Comfort.</h1>
+
+        <p class="hotel-description" style="font-family:jost;">
+          Discover exceptional hotels and unforgettable stays
+          around the world.
+        </p>
+
+        <a href="hotels.html" class="hotel-btn primary-btn">
+          Explore Hotels
+        </a>
+
+        <a href="booking.html" class="hotel-btn secondary-btn">
+          Book Your Stay
+        </a>
+      </div>
+
+    </li>
+
+
+    <!-- SLIDE 2 -->
+    <li class="hotel-slide"
+        style="background-image: url('images/carousel2.jpeg');">
+
+      <div class="hotel-content">
+        <p class="hotel-subtitle" >PREMIUM DESTINATIONS</p>
+
+        <h1 >Discover Your<br>Perfect Escape.</h1>
+
+        <p class="hotel-description" style="font-family:jost;">
+          Explore beautiful destinations and stay in handpicked
+          luxury properties.
+        </p>
+
+        <a href="destinations.html" class="hotel-btn primary-btn">
+          Explore Destinations
+        </a>
+      </div>
+
+    </li>
+
+
+    <!-- SLIDE 3 -->
+    <li class="hotel-slide"
+        style="background-image: url('images/carousel3.jpeg');">
+
+      <div class="hotel-content">
+        <p class="hotel-subtitle" >UNFORGETTABLE EXPERIENCES</p>
+
+        <h1 >Stay Somewhere<br>Extraordinary.</h1>
+
+        <p class="hotel-description" style="font-family:jost;">
+          From peaceful resorts to luxurious city hotels,
+          find your ideal stay.
+        </p>
+
+        <a href="experiences.html" class="hotel-btn primary-btn">
+          Discover Experiences
+        </a>
+      </div>
+
+    </li>
+
+
+    <!-- SLIDE 4 -->
+    <li class="hotel-slide"
+        style="background-image: url('images/zai2.avif');">
+
+      <div class="hotel-content">
+        <p class="hotel-subtitle" >ISLAND LUXURY</p>
+
+        <h1 >Escape To<br>Paradise.</h1>
+
+        <p class="hotel-description" style="font-family:jost;">
+          Experience breathtaking views and world-class comfort.
+        </p>
+
+        <a href="hotels.html" class="hotel-btn primary-btn">
+          View Hotels
+        </a>
+      </div>
+
+    </li>
+
+
+    <!-- SLIDE 5 -->
+    <li class="hotel-slide"
+        style="background-image: url('images/zai1.avif');">
+
+      <div class="hotel-content">
+        <p class="hotel-subtitle">CITY LUXURY</p>
+
+        <h1 >Luxury Beyond<br>Expectation.</h1>
+
+        <p class="hotel-description" style="font-family:jost;">
+          Discover sophisticated stays in the world's most
+          exciting destinations.
+        </p>
+
+        <a href="hotels.html" class="hotel-btn primary-btn">
+          Explore Hotels
+        </a>
+      </div>
+
+    </li>
+
+
+    <!-- SLIDE 6 -->
+    <li class="hotel-slide"
+        style="background-image: url('images/zai.avif');">
+
+      <div class="hotel-content">
+        <p class="hotel-subtitle">ELEGANT GETAWAYS</p>
+
+        <h1>Travel In<br>Luxury.</h1>
+
+        <p class="hotel-description" style="font-family:jost;">
+          Find elegant stays designed for comfort and unforgettable
+          moments.
+        </p>
+
+        <a href="booking.html" class="hotel-btn primary-btn">
+          Book Your Stay
+        </a>
+      </div>
+
+    </li>
+
+  </ul>
+
+
+  <!-- ARROW BUTTONS -->
+  <nav class="hotel-navigation">
+
+    <button class="hotel-arrow hotel-prev" type="button">
+      <i class="bi bi-arrow-left"></i>
+    </button>
+
+    <button class="hotel-arrow hotel-next" type="button">
+      <i class="bi bi-arrow-right"></i>
+    </button>
+
+  </nav>
+
+</section>
+<!-- END HOTEL HERO CAROUSEL  -->
+
+<!-- ABOUT US SECTION -->
+<section class="about-editorial" id="about">
+    <div class="about-editorial-container">
+
+        <div class="about-editorial-top">
+            <span>The Explorer's Journal</span>
+            <div class="about-editorial-top-line"></div>
+            <span>About — N° 01</span>
+        </div>
+
+        <div class="about-editorial-grid">
+
+            <div class="about-editorial-intro">
+                <div class="about-editorial-vertical">
+                    ABOUT LUXURY HOTEL EXPLORER
+                    <span></span>
+                </div>
+
+                <p class="about-editorial-est">EST. 2026</p>
+
+                <h2 class="about-editorial-title">
+                    <span>Discover</span>
+                    <span>a World</span>
+                    <span>of <em>Luxury</em></span>
+                    <span>&amp; Comfort</span>
+                </h2>
+
+                <div class="about-editorial-deco"></div>
+            </div>
+
+            <div class="about-editorial-image-area">
+                <div class="about-editorial-frame"></div>
+
+                <div class="about-editorial-image">
+                    <img src="images/about-hotel.jpg" alt="Luxury Hotel">
+                </div>
+
+                <div class="about-editorial-badge">
+                    <span></span>
+                    CURATED<br>STAYS
+                </div>
+
+                <div class="about-editorial-caption">
+                    FIG. 01 — A WORLD OF EXCEPTIONAL STAYS
+                </div>
+            </div>
+
+            <div class="about-editorial-content">
+
+                <div class="about-editorial-kicker">
+                    <span></span>
+                    OUR PHILOSOPHY
+                </div>
+
+                <p class="about-editorial-text first">
+                    Luxury Hotel Explorer helps you discover exceptional
+                    hotels and resorts in beautiful destinations around the
+                    world. From elegant city stays to peaceful luxury resorts,
+                    we make finding your perfect stay simple and enjoyable.
+                </p>
+
+                <p class="about-editorial-text">
+                    Explore carefully selected accommodations, compare your
+                    options and choose a stay that matches your travel style.
+                </p>
+
+                <a href="#hotels" class="about-editorial-link">
+                    <span>Explore Our Hotels</span>
+                    <i>→</i>
+                </a>
+
+                <div class="about-editorial-stats">
+
+                    <div class="about-editorial-stat">
+                        <strong>01</strong>
+                        <div>
+                            <h3>Premium Hotels</h3>
+                            <p>Carefully selected luxury accommodations.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-editorial-stat">
+                        <strong>02</strong>
+                        <div>
+                            <h3>Beautiful Destinations</h3>
+                            <p>Explore amazing places around the world.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-editorial-stat">
+                        <strong>03</strong>
+                        <div>
+                            <h3>Exceptional Experiences</h3>
+                            <p>Stays designed for unforgettable moments.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================== FEATURED HOTELS — CINEMATIC SHOWCASE ==================== -->
+<section class="featured-showcase" id="featured">
+    <div class="featured-showcase-inner">
+
+        <!-- Header -->
+        <header class="featured-showcase-header">
+            <p class="featured-showcase-eyebrow">
+                <span class="featured-showcase-eyebrow-rule"></span>
+                <span class="featured-showcase-eyebrow-text">Featured Hotels</span>
+            </p>
+
+            <p class="featured-showcase-counter">
+                <span class="featured-showcase-counter-window">
+                    <span class="featured-showcase-counter-current">01</span>
+                </span>
+                <span class="featured-showcase-counter-slash">/</span>
+                <span class="featured-showcase-counter-total">04</span>
+            </p>
+        </header>
+
+        <!-- Main Showcase -->
+        <div class="featured-showcase-stage">
+
+            <!-- Hotel Information -->
+            <div class="featured-showcase-editorial">
+
+                <p class="featured-showcase-index">
+                    <span class="featured-showcase-index-rule"></span>
+                    <span class="featured-showcase-index-label">
+                        N°
+                        <span class="featured-showcase-index-value">01</span>
+                    </span>
+                </p>
+
+                <h2 class="featured-showcase-title" aria-live="polite">
+                    <span class="featured-showcase-line">
+                        <span class="featured-showcase-line-inner">Taj</span>
+                    </span>
+
+                    <span class="featured-showcase-line">
+                        <span class="featured-showcase-line-inner featured-showcase-line-inner--italic">
+                            Exotica
+                        </span>
+                    </span>
+                </h2>
+
+                <dl class="featured-showcase-meta">
+
+                    <div class="featured-showcase-meta-row">
+                        <dt class="featured-showcase-meta-label">
+                            Location
+                        </dt>
+
+                        <dd class="featured-showcase-meta-value featured-showcase-meta-location">
+                            Goa, India
+                        </dd>
+                    </div>
+
+                    <div class="featured-showcase-meta-row">
+                        <dt class="featured-showcase-meta-label">
+                            Category
+                        </dt>
+
+                        <dd class="featured-showcase-meta-value featured-showcase-meta-category">
+                            Luxury Beach Resort
+                        </dd>
+                    </div>
+
+                </dl>
+
+                <div class="featured-showcase-rate">
+
+                    <p class="featured-showcase-price">
+                        <span class="featured-showcase-price-amount">
+                            ₹18,500
+                        </span>
+
+                        <span class="featured-showcase-price-per">
+                            / night
+                        </span>
+                    </p>
+
+                    <button
+                        class="featured-showcase-next"
+                        type="button"
+                        aria-label="Next hotel">
+
+                        <svg viewBox="0 0 26 12" aria-hidden="true">
+                            <path d="M0 6h24M19 1l5 5-5 5"></path>
+                        </svg>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Hotel Image -->
+            <div
+                class="featured-showcase-media"
+                tabindex="0"
+                role="region"
+                aria-label="Hotel gallery">
+
+                <div class="featured-showcase-draggable">
+
+                    <div class="featured-showcase-frame">
+
+                        <span class="featured-showcase-coords">
+                            15.55° N — 73.75° E
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom Navigation -->
+        <footer class="featured-showcase-footer">
+
+            <p class="featured-showcase-hint">
+                <span class="featured-showcase-hint-text">
+                    Drag to explore
+                </span>
+
+                <svg
+                    class="featured-showcase-hint-arrow"
+                    viewBox="0 0 46 10"
+                    aria-hidden="true">
+
+                    <path d="M0 5h42M37 1l6 4-6 4"></path>
+
+                </svg>
+            </p>
+
+            <div class="featured-showcase-progress">
+                <span class="featured-showcase-progress-fill"></span>
+                <span class="featured-showcase-progress-head"></span>
+            </div>
+
+            <nav
+                class="featured-showcase-nav"
+                aria-label="Choose a hotel">
+
+                <button
+                    class="featured-showcase-nav-btn featured-showcase-nav-btn--active"
+                    type="button"
+                    data-index="0"
+                    aria-current="true">
+                    01
+                </button>
+
+                <button
+                    class="featured-showcase-nav-btn"
+                    type="button"
+                    data-index="1"
+                    aria-current="false">
+                    02
+                </button>
+
+                <button
+                    class="featured-showcase-nav-btn"
+                    type="button"
+                    data-index="2"
+                    aria-current="false">
+                    03
+                </button>
+
+                <button
+                    class="featured-showcase-nav-btn"
+                    type="button"
+                    data-index="3"
+                    aria-current="false">
+                    04
+                </button>
+
+            </nav>
+
+        </footer>
+
+    </div>
+</section>
+<!-- ==================== END FEATURED HOTELS ==================== -->
+
+
+<!-- WHY CHOOSE US -->
+<section id="why-us">
+  <div class="container">
+    <div class="text-center">
+      <p class="why" style="font-family:Jost;" >WHY CHOOSE US</p>
+      <h2 class="us" style="font-family:Playfair Display;">Why Choose <span>Luxury Hotel Explorer?</span></h2>
+      <p  style="font-family:Jost;" >Everything you need for a comfortable and memorable stay.</p>
+    </div>
+    <br>
+    <div class="row g-4">
+      <div class="col-md-4 ">
+        <div class="card-1 text-center">
+          <i class="bi bi-building"></i>
+          <h4 style="font-family:Playfair Display;" >Premium Hotels</h4>
+           <p style="font-family:Jost;"> Discover carefully selected luxury hotels and resorts around the world. </p>
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="card-1 text-center">
+          <i class="bi bi-geo-alt"></i>
+          <h4 class="mt-3" style="font-family:Playfair Display;">Best Locations</h4>
+           <p style="font-family:Jost;">Explore beautiful destinations and amazing places for your perfect stay.  </p>
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="card-1 text-center">
+          <i class="bi bi-star"></i>
+          <h4 class="mt-3" style="font-family:Playfair Display;" >Quality Experience</h4>
+           <p style="font-family:Jost;">Enjoy comfortable stays and unforgettable travel experiences. </p>
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="card-1 text-center">
+          <i class="bi bi-calendar-check"></i>
+          <h4 class="mt-3" style="font-family:Playfair Display;" >Easy Booking</h4>
+           <p style="font-family:Jost;">Book your favorite hotel quickly and easily.</p>
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="card-1 text-center">
+          <i class="bi bi-headset"></i>
+          <h4 class="mt-3" style="font-family:Playfair Display;" >24/7 Support</h4>
+           <p style="font-family:Jost;">Get assistance whenever you need help with your stay.</p>
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="card-1 text-center">
+          <i class="bi  bi-shield-check"></i>
+          <h4 class="mt-3" style="font-family:Playfair Display;">Secure Booking</h4>
+           <p style="font-family:Jost;">Enjoy a safe and reliable hotel booking experience.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <!-- HOTEL EXPERIENCES -->
+
+
+<section class="luxury-experiences">
+
+<div class="luxury-experience-heading">
+    <p style="font-family:Jost;">EXPERIENCE LUXURY</p>
+    <h2 style="font-family:Playfair Display;">Hotel Experiences</h2>
+    <span>
+        Discover exceptional services designed to make your stay unforgettable.
+    </span>
+</div>
+
+
+<div class="luxury-experience-grid">
+
+    <!-- 01 -->
+    <div class="luxury-experience-card">
+
+        <div class="luxury-experience-content">
+
+            <span class="luxury-experience-icon">
+                <i class="bi bi-water"></i>
+            </span>
+
+            <h3 style="font-family:Playfair Display;">Infinity Pool</h3>
+
+            <p style="font-family:Jost;">
+                Relax beside our stunning infinity pool
+                and enjoy a peaceful luxury escape.
+            </p>
+
+            <a href="hotels.html" style="font-family:Jost;">Explore More</a>
+
+        </div>
+
+        <span class="luxury-circle"></span>
+
+    </div>
+
+
+    <!-- 02 -->
+    <div class="luxury-experience-card">
+
+        <div class="luxury-experience-content">
+
+            <span class="luxury-experience-icon">
+                <i class="bi bi-cup-hot"></i>
+            </span>
+
+            <h3 style="font-family:Playfair Display;">Fine Dining</h3>
+
+            <p style="font-family:Jost;">
+                Enjoy unforgettable flavours prepared
+                by our expert chefs.
+            </p>
+
+            <a href="hotels.html" style="font-family:Jost;">Explore More</a>
+
+        </div>
+
+        <span class="luxury-circle"></span>
+
+    </div>
+
+
+    <!-- 03 -->
+    <div class="luxury-experience-card">
+
+        <div class="luxury-experience-content">
+
+            <span class="luxury-experience-icon">
+                <i class="bi bi-stars"></i>
+            </span>
+
+            <h3 style="font-family:Playfair Display;">Luxury Spa</h3>
+
+            <p style="font-family:Jost;">
+                Refresh your body and mind with our
+                relaxing spa treatments.
+            </p>
+
+            <a href="hotels.html" style="font-family:Jost;">Explore More </a>
+
+        </div>
+
+        <span class="luxury-circle"></span>
+
+    </div>
+
+
+    <!-- 04 -->
+    <div class="luxury-experience-card">
+
+        <div class="luxury-experience-content">
+
+            <span class="luxury-experience-icon">
+                <i class="bi bi-heart-pulse"></i>
+            </span>
+
+            <h3 style="font-family:Playfair Display;">Fitness Center</h3>
+
+            <p style="font-family:Jost;">
+                Stay active with modern equipment
+                and premium fitness facilities.
+            </p>
+
+            <a href="hotels.html" style="font-family:Jost;">Explore More </a>
+
+        </div>
+
+        <span class="luxury-circle"></span>
+
+    </div>
+
+
+    <!-- 05 -->
+    <div class="luxury-experience-card">
+
+        <div class="luxury-experience-content">
+
+            <span class="luxury-experience-icon">
+                <i class="bi bi-bell"></i>
+            </span>
+
+            <h3 style="font-family:Playfair Display;">24/7 Room Service</h3>
+
+            <p style="font-family:Jost;">
+                Enjoy comfort and convenience with
+                dedicated service whenever you need it.
+            </p>
+
+            <a href="hotels.html" style="font-family:Jost;">Explore More</a>
+
+        </div>
+
+        <span class="luxury-circle"></span>
+
+    </div>
+
+
+    <!-- 06 -->
+    <div class="luxury-experience-card">
+
+        <div class="luxury-experience-content">
+
+            <span class="luxury-experience-icon">
+                <i class="bi bi-car-front"></i>
+            </span>
+
+            <h3 style="font-family:Playfair Display;">Airport Transfer</h3>
+
+            <p style="font-family:Jost;">
+                Travel comfortably with our convenient
+                airport pickup and transfer service.
+            </p>
+
+            <a href="hotels.html" style="font-family:Jost;">Explore More</a>
+
+        </div>
+
+        <span class="luxury-circle" ></span>
+    </div>
+</div>
+</section>
+
+
+<!-- GUEST REVIEWS -->
+
+<section class="luxury-reviews">
+    <div class="luxury-review-heading">
+        <p style="font-family:Jost;">WHAT OUR GUESTS SAY</p>
+        <h2 style="font-family:Playfair Display;">Loved by Our Guests</h2>
+        <span style="font-family:Jost;">Beautiful stays, unforgettable moments, and exceptional hospitality.</span>
+    </div>
+
+    <div class="luxury-review-grid">
+
+        <div class="luxury-review-card">
+            <div class="luxury-review-layer"></div>
+            <div class="luxury-review-content">
+                <div class="luxury-review-stars">
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                 </div>
+                <p  style="font-family:Jost;">"An unforgettable stay. The room was beautiful and the service was exceptional."</p>
+                <div class="luxury-review-image">
+                    <img src="images/firstpic.png" alt="Guest">
+                </div>
+                <div class="luxury-review-details">
+                    <h3 style="font-family:Playfair Display;">Arun Kumar</h3>
+                    <span  style="font-family:Jost;">Chennai, India</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="luxury-review-card">
+            <div class="luxury-review-layer"></div>
+            <div class="luxury-review-content">
+                 <div class="luxury-review-stars">
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                 </div>
+                <p  style="font-family:Jost;">"The atmosphere was peaceful, elegant and perfect for a relaxing holiday."</p>
+                <div class="luxury-review-image">
+                    <img src="images/review-1.png" alt="Guest">
+                </div>
+                <div class="luxury-review-details">
+                    <h3 style="font-family:Playfair Display;">Sophia Martin</h3>
+                    <span  style="font-family:Jost;">London, UK</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="luxury-review-card">
+            <div class="luxury-review-layer"></div>
+            <div class="luxury-review-content">
+                <div class="luxury-review-stars">
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                 </div>
+                <p  style="font-family:Jost;">"Amazing food, wonderful staff and a truly luxurious experience from start to finish."</p>
+                <div class="luxury-review-image">
+                    <img src="images/4thpic.jpg" alt="Guest">
+                </div>
+                <div class="luxury-review-details">
+                    <h3 style="font-family:Playfair Display;">Rahul Sharma</h3>
+                    <span  style="font-family:Jost;">Mumbai, India</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="luxury-review-card">
+            <div class="luxury-review-layer"></div>
+            <div class="luxury-review-content">
+                <div class="luxury-review-stars">
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                     <i class="bi bi-star-fill"></i>
+                 </div>
+                <p  style="font-family:Jost;">"Everything was beautifully arranged. I would definitely come back again."</p>
+                <div class="luxury-review-image">
+                    <img src="images/3rdpic.jpg" alt="Guest">
+                </div>
+                <div class="luxury-review-details">
+                    <h3 style="font-family:Playfair Display;">Emily Wilson</h3>
+                    <span  style="font-family:Jost;">New York, USA</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- HOTEL GALLERY -->
+
+<section class="luxury-gallery">
+    <div class="luxury-gallery-heading">
+        <p style="font-family:Jost;">EXPLORE OUR HOTEL</p>
+        <h2 style="font-family:Playfair Display;" >A Glimpse of Luxury</h2>
+        <span style="font-family:Jost;">Discover the elegance, comfort, and unforgettable moments waiting for you.</span>
+    </div>
+
+    <div class="luxury-gallery-grid">
+
+        <div class="luxury-gallery-item">
+            <img src="images/Luxury-Stay.jpg">
+            <div class="luxury-gallery-overlay">
+                <h3 style="font-family:Playfair Display;">Luxury Stay</h3>
+                <span style="font-family:Jost;">Elegant Rooms</span>
+            </div>
+        </div>
+
+        <div class="luxury-gallery-item">
+            <img src="images/Infinity Pool.jpg">
+            <div class="luxury-gallery-overlay">
+                <h3 style="font-family:Playfair Display;">Infinity Pool</h3>
+                <span style="font-family:Jost;">Relax & Refresh</span>
+            </div>
+        </div>
+
+        <div class="luxury-gallery-item">
+            <img src="images/Premium Interior.jpg">
+            <div class="luxury-gallery-overlay">
+                <h3 style="font-family:Playfair Display;">Premium Interior</h3>
+                <span style="font-family:Jost;">Designed for Comfort</span>
+            </div>
+        </div>
+
+        <div class="luxury-gallery-item">
+            <img src="images/Fine Dining.jpg">
+            <div class="luxury-gallery-overlay">
+                <h3 style="font-family:Playfair Display;">Fine Dining</h3>
+                <span style="font-family:Jost;">Exceptional Flavours</span>
+            </div>
+        </div>
+
+        <div class="luxury-gallery-item">
+            <img src="images/Hotel Spa.jpg">
+            <div class="luxury-gallery-overlay">
+                <h3 style="font-family:Playfair Display;">Luxury Spa</h3>
+                <span style="font-family:Jost;">Pure Relaxation</span>
+            </div>
+        </div>
+
+        <div class="luxury-gallery-item">
+            <img src="images/luxury Resort.jpg">
+            <div class="luxury-gallery-overlay">
+                <h3 style="font-family:Playfair Display;">Beautiful Escape</h3>
+                <span style="font-family:Jost;">Unforgettable Moments</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- BOOKING CTA -->
+
+<section class="luxury-booking">
+    <div class="luxury-booking-overlay"></div>
+    <div class="luxury-booking-content">
+        <p style="font-family:Jost;">READY FOR YOUR NEXT ESCAPE?</p>
+        <h2  style="font-family:Playfair Display;">Your Perfect Stay Awaits</h2>
+        <span style="font-family:Jost;">Experience exceptional comfort, elegant spaces, and unforgettable hospitality.</span>
+        <a href="booking.html" class="luxury-booking-btn">Book Your Stay <i class="bi bi-arrow-right"></i></a>
+    </div>
+</section>
+
+ <!-- CONTACT SECTION -->
+
+<section class="luxury-contact">
+    <div class="luxury-contact-heading">
+        <p style="font-family:Jost;">GET IN TOUCH</p>
+        <h2  style="font-family:Playfair Display;">We'd Love to Hear From You</h2>
+        <span style="font-family:Jost;">Have a question or planning your next stay? Our team is here to help.</span>
+    </div>
+
+    <div class="luxury-contact-wrapper">
+
+        <!-- CONTACT INFORMATION -->
+        <div class="luxury-contact-info">
+            <h3  style="font-family:Playfair Display;">Luxury Hotel Explorer</h3>
+            <p class="luxury-contact-intro" style="font-family:Jost;">
+                Experience exceptional hospitality, elegant rooms and unforgettable stays.
+            </p>
+
+            <div class="luxury-contact-detail">
+                <div class="luxury-contact-icon">
+                    <i class="bi bi-geo-alt"></i>
+                </div>
+                <div>
+                    <h4  style="font-family:Playfair Display;">Our Location</h4>
+                    <p style="font-family:Jost;">Marine Drive, Mumbai, India</p>
+                </div>
+            </div>
+
+            <div class="luxury-contact-detail">
+                <div class="luxury-contact-icon">
+                    <i class="bi bi-envelope"></i>
+                </div>
+                <div>
+                    <h4  style="font-family:Playfair Display;">Email Us</h4>
+                    <p style="font-family:Jost;">reservations@luxuryhotelexplorer.com</p>
+                </div>
+            </div>
+
+            <div class="luxury-contact-detail">
+                <div class="luxury-contact-icon">
+                    <i class="bi bi-telephone"></i>
+                </div>
+                <div>
+                    <h4  style="font-family:Playfair Display;">Call Us</h4>
+                    <p>+91 98765 43210</p>
+                </div>
+            </div>
+
+            <div class="luxury-contact-detail">
+                <div class="luxury-contact-icon">
+                    <i class="bi bi-clock"></i>
+                </div>
+                <div>
+                    <h4  style="font-family:Playfair Display;">Reception Hours</h4>
+                    <p style="font-family:Jost;">Available 24 Hours</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div class="luxury-contact-form">
+            <h3  style="font-family:Playfair Display;">Send Us a Message</h3>
+
+            <form action="https://formsubmit.co/your@email.com" method="POST">
+                <div class="luxury-contact-row">
+                    <div class="luxury-contact-field">
+                        <label style="font-family:Jost;">Your Name</label>
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="luxury-contact-field">
+                        <label style="font-family:Jost;">Your Email</label>
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                </div>
+
+                <div class="luxury-contact-field">
+                    <label style="font-family:Jost;">Subject</label>
+                    <input type="text" name="subject" placeholder="Enter subject" required>
+                </div>
+
+                <div class="luxury-contact-field">
+                    <label style="font-family:Jost;">Your Message</label>
+                    <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+                </div>
+
+                <button type="submit" class="luxury-contact-btn">
+                    Send Message <i class="bi bi-arrow-right"></i>
+                </button>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+<!-- LOCATION SECTION -->
+<!-- 
+<section class="luxury-location">
+    <div class="luxury-location-heading">
+        <p>FIND US</p>
+        <h2>Our Perfect Location</h2>
+        <span>Discover a convenient location surrounded by comfort, culture and unforgettable experiences.</span>
+    </div>
+    <div class="luxury-location-wrapper">
+        <div class="luxury-location-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241318.50399990243!2d72.56649335108634!3d19.08124523756911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1788793613744!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+        <div class="luxury-location-info">
+            <p class="luxury-location-small">WELCOME TO OUR LOCATION</p>
+            <h3>Luxury Hotel Explorer</h3>
+            <p class="luxury-location-text">Experience elegant hospitality in one of the city's most convenient and beautiful locations.</p>
+            <div class="luxury-location-detail">
+                <i class="bi bi-geo-alt"></i>
+                <div>
+                    <h4>Our Address</h4>
+                    <span>Mumbai, Maharashtra, India</span>
+                </div>
+            </div>
+            <div class="luxury-location-detail">
+                <i class="bi bi-airplane"></i>
+                <div>
+                    <h4>Airport Access</h4>
+                    <span>Easy access from Mumbai International Airport</span>
+                </div>
+            </div>
+            <div class="luxury-location-detail">
+                <i class="bi bi-car-front"></i>
+                <div>
+                    <h4>Easy Access</h4>
+                    <span>Convenient transport connections nearby</span>
+                </div>
+            </div>
+            <a href="#" class="luxury-location-btn">Get Directions <i class="bi bi-arrow-right"></i></a>
+        </div>
+    </div>
+</section> -->
+
+
+
+<!-- FOOTER -->
+
+<footer class="luxury-footer">
+    <div class="luxury-footer-main">
+        <div class="luxury-footer-brand">
+            <h2  style="font-family:Playfair Display;">Luxury Hotel Explorer</h2>
+            <p style="font-family:Jost;">Experience exceptional hospitality, elegant spaces, and unforgettable stays at handpicked luxury hotels.</p>
+            <div class="luxury-footer-social">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+            </div>
+        </div>
+        <div class="luxury-footer-column">
+            <h3 style="color:#d7c29a"  style="font-family:Playfair Display;">Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#featured">Featured Hotels</a>
+            <a href="#experiences">Experiences</a>
+            <a href="#gallery">Gallery</a>
+        </div>
+        <div class="luxury-footer-column">
+            <h3 style="color:#d7c29a"  style="font-family:Playfair Display;">Explore</h3>
+            <a href="#why-us">Why Choose Us</a>
+            <a href="#reviews">Guest Reviews</a>
+            <a href="#contact">Contact Us</a>
+            <a href="#booking">Book Your Stay</a>
+            <a href="#location">Find Us</a>
+        </div>
+        <div class="luxury-footer-column luxury-footer-contact">
+            <h3 style="color:#d7c29a"  style="font-family:Playfair Display;">Contact Us</h3>
+            <p><i class="bi bi-geo-alt"></i> Mumbai, Maharashtra, India</p>
+            <p><i class="bi bi-telephone"></i> +91 98765 43210</p>
+            <p><i class="bi bi-envelope"></i> reservations@luxuryhotelexplorer.com</p>
+            <p><i class="bi bi-clock"></i> Available 24 Hours</p>
+        </div>
+    </div>
+    <div class="luxury-footer-bottom">
+        <p style="font-family:Jost;">© 2026 <span style="font-family:Jost;">Luxury Hotel Explorer</span>. All Rights Reserved.</p>
+        <div>
+            <a href="#" style="font-family:Jost;">Privacy Policy</a>
+            <a href="#" style="font-family:Jost;">Terms & Conditions</a>
+        </div>
+    </div>
+</footer>
+
+<!-- chat-box -->
+ <!-- ================= CONCIERGE CHAT ================= -->
+
+<!-- Teaser Message -->
+<div class="teaser" id="teaser" role="status">
+    <button class="teaser-close" id="teaserClose" aria-label="Dismiss">
+        <i class="bi bi-x"></i>
+    </button>
+
+    <p class="teaser-text">
+        <span class="teaser-hi" id="teaserHi">Good evening.</span>
+        Need help planning your luxury stay?
+    </p>
+</div>
+
+
+<!-- Floating Chat Button -->
+<button class="fab"
+        id="fab"
+        aria-expanded="false"
+        aria-controls="chatPanel"
+        aria-label="Open concierge chat">
+
+    <span class="fab-icon" aria-hidden="true">
+
+        <!-- Chat Icon -->
+        <i class="bi bi-chat-dots icon-chat"></i>
+
+        <!-- Close Icon -->
+        <i class="bi bi-x-lg icon-close"></i>
+
+    </span>
+
+    <span class="fab-label">Concierge</span>
+
+    <span class="fab-badge">1</span>
+
+</button>
+
+
+<!-- Chat Panel -->
+<section class="chat-panel"
+         id="chatPanel"
+         role="dialog"
+         aria-label="Concierge chat"
+         aria-hidden="true">
+
+    <!-- Header -->
+    <div class="panel-head">
+
+        <div class="medallion reveal" style="--d:.05s">
+            <span>C</span>
+        </div>
+
+        <div class="head-text reveal" style="--d:.08s">
+            <span class="eyebrow">Luxury Hotel Explorer</span>
+            <h3>The Concierge</h3>
+        </div>
+
+        <button class="head-close reveal"
+                id="headClose"
+                style="--d:.08s"
+                aria-label="Close chat">
+
+            <i class="bi bi-x-lg"></i>
+
+        </button>
+
+    </div>
+
+
+    <!-- Chat Content -->
+    <div class="panel-scroll">
+
+        <p class="lede reveal" style="--d:.12s">
+            Hello. How may we assist with your stay?
+        </p>
+
+
+        <div class="form-wrap" id="formWrap">
+
+            <form id="conciergeForm" novalidate>
+
+                <!-- Name -->
+                <div class="field reveal" style="--d:.18s">
+
+                    <label for="fName">
+                        Full name
+                    </label>
+
+                    <input
+                        id="fName"
+                        type="text"
+                        placeholder="Your name"
+                        autocomplete="name">
+
+                    <span class="field-line"></span>
+
+                </div>
+
+
+                <!-- Email -->
+                <div class="field reveal" style="--d:.24s">
+
+                    <label for="fEmail">
+                        Email
+                    </label>
+
+                    <input
+                        id="fEmail"
+                        type="email"
+                        placeholder="your@email.com"
+                        autocomplete="email">
+
+                    <span class="field-line"></span>
+
+                </div>
+
+
+                <!-- Message -->
+                <div class="field reveal" style="--d:.30s">
+
+                    <label for="fMsg">
+                        How may we assist?
+                    </label>
+
+                    <textarea
+                        id="fMsg"
+                        rows="3"
+                        placeholder="Tell us what you need..."></textarea>
+
+                    <span class="field-line"></span>
+
+                </div>
+
+
+                <!-- Error -->
+                <p class="form-hint"
+                   id="formHint"
+                   role="alert"></p>
+
+
+                <!-- Submit -->
+                <button
+                    type="submit"
+                    class="submit reveal"
+                    style="--d:.36s"
+                    id="submitBtn">
+
+                    <span id="submitLabel">
+                        Send inquiry
+                    </span>
+
+                    <span class="btn-end">
+
+                        <i class="bi bi-arrow-right arrow"></i>
+
+                        <span class="spin"></span>
+
+                    </span>
+
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <!-- Success -->
+        <div class="success"
+             id="successState"
+             hidden>
+
+            <div class="check-circle">
+                <i class="bi bi-check-lg"></i>
+            </div>
+
+            <h4>Message received</h4>
+
+            <p>
+                Thank you,
+                <span class="hl" id="successName">guest</span>.
+
+                Our concierge will contact you at
+                <span class="hl" id="successEmail"></span>.
+            </p>
+
+            <button class="again" id="againBtn">
+                Send another message
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <div class="panel-foot">
+
+        <span class="status-dot"></span>
+
+        <span>
+            Online now — we reply within a few minutes
+        </span>
+
+    </div>
+
+</section>
+
+<!-- ================= END CONCIERGE CHAT ================= -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
